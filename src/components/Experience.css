@@ -1,0 +1,136 @@
+.experience {
+  padding: 6rem 0;
+  background: var(--darker-bg);
+}
+
+.experience-timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experience-timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border-color);
+  transform: translateX(-50%);
+}
+
+.experience-item {
+  position: relative;
+  margin-bottom: 3rem;
+  width: 50%;
+}
+
+.experience-item:nth-child(odd) {
+  left: 0;
+  padding-right: 2rem;
+}
+
+.experience-item:nth-child(even) {
+  left: 50%;
+  padding-left: 2rem;
+}
+
+.experience-item::before {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  width: 12px;
+  height: 12px;
+  background: var(--primary-orange);
+  border-radius: 50%;
+  border: 3px solid var(--dark-bg);
+}
+
+.experience-item:nth-child(odd)::before {
+  right: -6px;
+}
+
+.experience-item:nth-child(even)::before {
+  left: -6px;
+}
+
+.experience-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid var(--border-color);
+  transition: var(--transition);
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-orange);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.experience-header {
+  margin-bottom: 1rem;
+}
+
+.experience-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-white);
+  margin-bottom: 0.5rem;
+}
+
+.experience-company {
+  font-size: 1rem;
+  color: var(--primary-orange);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.experience-duration {
+  font-size: 0.9rem;
+  color: var(--text-gray);
+}
+
+.experience-description {
+  color: var(--text-gray);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.experience-link {
+  color: var(--primary-orange);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.experience-link:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .experience {
+    padding: 4rem 0;
+  }
+
+  .experience-timeline::before {
+    left: 20px;
+  }
+
+  .experience-item {
+    width: 100%;
+    left: 0 !important;
+    padding-left: 3rem !important;
+    padding-right: 0 !important;
+  }
+
+  .experience-item::before {
+    left: 14px !important;
+  }
+
+  .experience-card {
+    padding: 1.5rem;
+  }
+}
