@@ -1,7 +1,7 @@
 .about {
   padding: 6rem 0;
-  background: var(--primary-orange);
-  color: var(--dark-bg);
+  background: var(--darker-bg);
+  color: var(--darker-bg);
 }
 
 .about-content {
@@ -21,7 +21,7 @@
   border-radius: 20px;
   object-fit: cover;
   border: 4px solid var(--dark-bg);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.0);
+  box-shadow: 0 20px 40px rgba(175, 156, 156, 0);
 }
 
 .about-text h2 {
@@ -30,14 +30,14 @@
   line-height: 1.1;
   margin-bottom: 2rem;
   text-transform: lowercase;
-  color: var(--dark-bg);
+  color: var(--primary-orange);
 }
 
 .about-description {
   font-size: 1.3rem;
   line-height: 1.6;
   margin-bottom: 3rem;
-  color: #333;
+  color: #f8f6f6;
 }
 
 .about-stats {
@@ -57,14 +57,14 @@
 .stat-number {
   font-size: 2.5rem;
   font-weight: 800;
-  color: var(--dark-bg);
+  color: var(--primary-orange);
   margin-bottom: 0.5rem;
 }
 
 .stat-label {
   font-size: 1rem;
   font-weight: 600;
-  color: #333;
+  color: #3a3a3a;
 }
 
 .about-details {
@@ -85,17 +85,17 @@
 
 .detail-label {
   font-weight: 700;
-  color: var(--dark-bg);
+  color: var(--primary-orange);
   font-size: 1.1rem;
 }
 
 .detail-value {
-  color: #333;
+  color: #ffd8d8;
   font-weight: 500;
 }
 
 .detail-value a {
-  color: var(--dark-bg);
+  color: var(--primary-white);
   text-decoration: none;
   font-weight: 700;
 }

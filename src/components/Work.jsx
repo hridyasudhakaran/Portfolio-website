@@ -7,7 +7,7 @@ const Work = () => {
       title: "8-to-256 Decoder",
       description:
         "Working on the design of an 8-to-256 address decoder using both analog and digital VLSI methodologies with Cadence Virtuoso and TSMC 180nm technology.",
-      image: "/images/decoder.png",
+      image: "/Portfolio-website/images/decoder.png",
       technologies: ["Cadence Virtuoso", "TSMC 180nm", "Verilog", "VLSI Design"],
       liveUrl: "#",
       githubUrl: "#",
@@ -17,7 +17,7 @@ const Work = () => {
       title: "CICADA - Interactive Quiz Website",
       description:
         "An interactive quiz website where users progress through different levels by answering questions correctly. Each correct answer unlocks the next level.",
-      image: "/images/cicada.png",
+      image: "/Portfolio-website/images/cicada.png",
       technologies: ["HTML", "CSS", "JavaScript", "Web Development"],
       liveUrl: "#",
       githubUrl: "#",
@@ -27,7 +27,7 @@ const Work = () => {
       title: "Pattern Follower Toy",
       description:
         "Designed and developed an autonomous toy that displays a sequence of lights and requires players to recall and input the correct order.",
-      image: "/images/patern.png",
+      image: "/Portfolio-website/images/patern.png",
       technologies: ["Embedded Systems", "Microprocessor", "Digital Electronics"],
       liveUrl: "#",
       githubUrl: "#",
@@ -37,7 +37,7 @@ const Work = () => {
       title: "Mini Audio Equalizer",
       description:
         "Built an audio equalizer to modify audio signals by adjusting bass, treble and midrange frequencies based on personal preferences.",
-      image: "/images/equalizer.png",
+      image: "/Portfolio-website/images/equalizer.png",
       technologies: ["Analog Filters", "Audio Processing", "Circuit Design"],
       liveUrl: "#",
       githubUrl: "#",
@@ -47,7 +47,7 @@ const Work = () => {
       title: "Logic Car Parking Counter",
       description:
         "Developed a parking counter system where the count increases by 1 when a car enters and decreases by 1 when a car leaves.",
-      image: "/images/car.png",
+      image: "/Portfolio-website/images/car.png",
       technologies: ["Digital Logic", "7-Segment Display", "Counter Circuits"],
       liveUrl: "#",
       githubUrl: "#",
@@ -57,7 +57,7 @@ const Work = () => {
       title: "Monostable Circuit",
       description:
         "Designed and implemented a controlled stable state or pulse generator circuit using IC555 for precise timing applications.",
-      image: "/images/monostable.png",
+      image: "/Portfolio-website/images/monostable.png",
       technologies: ["IC555", "Analog Electronics", "Pulse Generation"],
       liveUrl: "#",
       githubUrl: "#",

@@ -11,6 +11,7 @@ const Skills = () => {
         "Digital Electronics",
         "Analog Circuits",
         "Circuit Simulation",
+        "PCB Design"
       ],
     },
     {
@@ -22,6 +23,8 @@ const Skills = () => {
         "Object Oriented Programming",
         "Data Structures",
         "Algorithms",
+        "Git",
+        "Debugging"
       ],
     },
     {
@@ -34,10 +37,6 @@ const Skills = () => {
         "UI/UX Design",
         "DOM Manipulation",
       ],
-    },
-    {
-      title: "Tools & Software",
-      skills: ["Cadence Virtuoso", "LT Spice", "Git", "PCB Design", "Debugging", "Project Management"],
     },
   ]
 

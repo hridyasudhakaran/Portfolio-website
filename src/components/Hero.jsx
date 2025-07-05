@@ -56,13 +56,13 @@ const Hero = () => {
 
        <div className="hero-images" ref={imagesRef}>
   <div className="hero-image">
-    <img src="/images/cirtuit.png" alt="cirtuit" width={300} height={200} />
+    <img src="/Portfolio-website/images/cirtuit.png" alt="cirtuit" width={300} height={200} />
   </div>
   <div className="hero-image">
-    <img src="/images/vlsi.png" alt="VLSI" width={200} height={200} />
+    <img src="/Portfolio-website/images/vlsi.png" alt="VLSI" width={200} height={200} />
   </div>
   <div className="hero-image">
-    <img src="/images/code.png" alt="code" width={300} height={200} />
+    <img src="/Portfolio-website/images/code.png" alt="code" width={300} height={200} />
   </div>
 </div>
 
